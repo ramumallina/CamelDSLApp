@@ -8,7 +8,7 @@ public class SimpleRouteBuilder extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-        from("file:E:/inbox?noop=true").split().tokenize("\n").to("jms:queue:RahulChowdary");
+        from("file:E:/inbox?noop=true").split().tokenize("\n").to("jms:queue:GandhiChowdary");
 		/*
 		 * from("jms:queue:Gajini") .process(new Processor() { public void
 		 * process(Exchange arg0) throws Exception {
